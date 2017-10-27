@@ -25,40 +25,47 @@ body {
 #hammer {
 	position: relative;
 	bottom: 70px;
-
+	transition: linear 0.175s;
 }
 #hammer:hover {
 	position: relative;
-	bottom: 65px;
+	bottom: 58px;
+	right: 9px;
+	transition: linear 0.175s;
 }
 #saw {
 	position: relative;
 	right: 360px;
 	top: 20px;
+	transition: linear 0.175s;
 }
 #saw:hover {
 	position: relative;
 	top: 25px;
 	right: 355px;
+	transition: linear 0.175s;
 }
 #screwdriver {
 	position: relative;
 	left: 350px;
 	bottom: 160px;
+	transition: linear 0.175s;
 }
 #screwdriver:hover {
 	position: relative;
-	left: 345px;
+	left: 335px;
 	bottom: 155px;
+	transition: linear 0.175s;
 }
 #pincers {
 	position: relative;
 	left: 580px;
 	bottom: 40px;
+	transition: linear 0.175s;
 }
 #pincers:hover {
 	position: relative;
-	left: 575px;
+	left: 560px;
 	bottom: 45px;
 }
 #toolbox {
